@@ -1,0 +1,66 @@
+# Site settings
+# -------------
+baseurl : /wot # the subpath of your site, e.g. /blog
+host    : 127.0.0.1
+port    : 4109
+
+# Course
+# ------
+syllabus-id: 1819-WOT
+
+hero_introduction : Syllabus voor het opleidingsonderdeel Web Of Things
+hero_image        : /syllabusv2-resources/assets/images/header-dev.jpg
+words_per_minute  : 60
+
+# SEO
+# ---
+domain      : Artevelde University College Ghent
+subdomain   : Bachelor of Graphical and Digital Media
+title       : Web Of Things
+description : Syllabus voor het opleidingsonderdeel Web Of Things
+author      : Bachelor of Graphical and Digital Media | Artevelde University College Ghent
+copyright   : Copyright 2010-17 Artevelde University College Ghent. All Rights Reserved.
+
+# Google Services
+# ---------------
+google-analytics-tracking_id  :  "UA-18202861-3"
+
+# Where things are from Jekyll
+# ----------------------------
+data_dir      : /_data
+includes_dir  : /syllabusv2-resources/_includes
+layouts_dir   : /syllabusv2-resources/_layouts
+# plugins_dir   : /syllabusv2-resources/_plugins
+
+# Build settings
+# --------------
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+sass:
+  sass_dir: /syllabusv2-resources/_sass
+  # style: compressed
+exclude:
+  - Gemfile
+  - LICENSE
+  - README.md
+
+# Collections
+# -----------
+collections:
+  faqs:
+    output: false
+
+# Defaults
+# --------
+defaults:
+  - scope:
+      type: faqs
+    values:
+      layout: course

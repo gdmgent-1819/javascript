@@ -1,0 +1,176 @@
+# Semester 1
+# ----------
+
+# Week 01
+- week: "01"
+  icon: flag-o
+  type: warning
+  content: |
+    Hoorcollege
+    -----------
+    - Algemeen
+      - Introductie
+      - Informatie
+      - Opdrachten
+      - Examen
+      - Tijdlijn
+
+    - Inhoud
+      - 
+
+- week: "01"
+  icon: flag-o
+  type: danger
+  content: |
+    Taken
+    -----
+    - ...
+
+# Week 02
+
+- week: "02"
+  content: |
+    {::nomarkdown}
+    TBD
+    {:/}
+
+# Week 03
+
+- week: "03"
+  content: |
+    {::nomarkdown}
+    TBD
+    {:/}
+
+# Week 04
+
+- week: "04"
+  content: |
+    {::nomarkdown}
+    TBD
+    {:/}
+
+# Week 05
+
+- week: "05"
+  content: |
+    {::nomarkdown}
+    TBD
+    {:/}
+
+# Autumn
+- icon: leaf
+  type: default
+  content: |
+    {::nomarkdown}
+    Herfstperiode
+    {:/}
+
+# Week 06
+
+- week: "06"
+  content: |
+    {::nomarkdown}
+    TBD
+    {:/}
+
+# Week 07
+
+- week: "07"
+  content: |
+    {::nomarkdown}
+    TBD
+    {:/}
+
+# Week 08
+
+- week: "08"
+  content: |
+    {::nomarkdown}
+    TBD
+    {:/}
+
+# Week 09
+
+- week: "09"
+  content: |
+    {::nomarkdown}
+    TBD
+    {:/}
+
+# Week 10
+
+- week: "10"
+  content: |
+    {::nomarkdown}
+    TBD
+    {:/}
+
+# Week 11
+
+- week: "11"
+  content: |
+    {::nomarkdown}
+    TBD
+    {:/}
+
+# Week 12
+
+- week: "12"
+  content: |
+    {::nomarkdown}
+    TBD
+    {:/}
+
+# Christmas
+- icon: tree
+  type: default
+  content: |
+    {::nomarkdown}
+    Kerstperiode
+    {:/}
+
+# Exam 1
+- date: 2018-01-01
+  icon: university
+  type: danger
+  milestone:
+    # uri: "/opdracht/#milestone-exam-oral"
+    label: Schriftelijk Examen
+    small: EK1
+
+# Semester 2
+# ----------
+
+# Easter
+- icon: sun-o
+  type: default
+  content: |
+    {::nomarkdown}
+    Paasperiode
+    {:/}
+
+# Summer
+- icon: plane
+  type: default
+  content: |
+    {::nomarkdown}
+    Zomerperiode
+    {:/}
+
+# Exam 2
+- date: 2018-08-01
+  icon: university
+  type: danger
+  milestone:
+    # uri: "/opdracht/#milestone-exam-oral"
+    label: Schriftelijk Examen
+    small: EK2
+
+# End
+- icon: glass
+  type: success
+  content: |
+    {::nomarkdown}
+    Time for a drink!
+    {:/}

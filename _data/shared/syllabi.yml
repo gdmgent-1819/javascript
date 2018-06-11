@@ -1,0 +1,585 @@
+# --------------
+# DO NOT MODIFY!
+# --------------
+- id: 1718-CMS
+  type: OLOD
+  lang: nl
+  color: primary
+  title:
+    short: CMS
+    long : Content Management Systems
+  academic-year: 2017-2018
+  authors: # First is owner
+    - AAD
+    - EVR
+  evaluation-criteria: |
+  content: |
+  competences:
+    start:
+    end:
+  programme:
+    institute : AHS
+    department: PBAGDM
+    major     : MMP
+    minor     : AVD
+
+- id: 1718-CMSDEV
+  type: OLOD
+  lang: nl
+  color: primary
+  title:
+    short: CMSDEV
+    long : CMS Development
+  academic-year: 2017-2018
+  authors: # First is owner
+    - OPR
+    - FR
+  evaluation-criteria: |
+  content: |
+    - Content Management Systeem toepassen:
+      - opzetten van een lokale ontwikkelomgeving;
+      - installatie en configuratie;
+      - beheer van inhoud en gebruikers;
+      - ontwikkelen van thema's en uitbreidingen op maat van de klant;
+      - een mobiele applicatie ontwikkelen en integreren met de web service van het CMS (headless/decoupled CMS);
+      - in gebruik nemen;
+      - onderhoud (updates installeren en gegevens back-uppen).
+    - User Experience Design
+  competences:
+    start:
+      - "Crossmedia Publishing I MMP"
+      - "Crossmedia Publishing II MMP"
+      - "New Media Design & Development I"
+      - "New Media Design & Development II"
+      - "Toegepaste Informatica"
+      - "Web Design & Development I"
+      - "Web Design & Development II"
+      - "Web Design & Development III"
+      - "Webdesign I"
+      - "Webdesign II"
+    end:
+      - ["GDM/101", "integratie"]
+      - ["MMP/201", "component"]
+      - ["MMP/203", "niveau 2"]
+      - ["MMP/205", "component"]
+  course-materials: |
+    - Cursusteksten:
+      - Cursus via Chamilo (Arteveldehogeschool)
+      - [Online Syllabus][1718-CMSDEV]
+      - Online Tutorials
+    - Uitrustings- en werkmateriaal:
+      - [Adobe Creative Cloud][]
+      - [JetBrains Toolbox App][]
+      - [Microsoft Visual Studio Code][]
+  objectives: |
+    De student kan:
+    - een lokale ontwikkelomgeving voor een CMS opzetten;
+    - een CMS installeren en instellen;
+    - de inhoud en de gebruikers van een CMS beheren;
+    - thema's en uitbreidingen van een CMS ontwikkelen op maat van de klant;
+    - een mobiele applicatie ontwikkelen die geïntegreerd is met een CMS-backend via een web service (headless/decoupled CMS);
+    - een CMS in gebruik nemen;
+    - een CMS onderhouden.
+  programme:
+    institute : AHS
+    department: PBAGDM
+    major     : MMP
+    minor     : NMD
+  resources:
+    chamilo-id: 13913
+    ects-id   : 62777
+  workload:
+    credits: 11
+    breakdown:
+      - "Hoor- en werkcolleges":  63
+      - "Taken in zelfstudie"  : 266
+      - "Toets- en examentijd" :   1
+    assignment-commitment: ["330 uur", "8,7 weken"]
+
+- id: 1718-MOBDEV1
+  type: OLOD
+  lang: nl
+  color: primary
+  title:
+    short: MOBDEV-I
+    long : Mobile Development I
+  academic-year: 2017-2018
+  authors: # First is owner
+    - PDP
+  evaluation-criteria: |
+    De student:
+    - zet een ontwikkelomgeving op die de aangeleerde workflow ondersteunt;
+    - kan objectgeoriënteerd programmeren in ES6 en TypeScript;
+    - implementeert een backend via cloud services;
+    - integreert Open Data;
+    - ontwerpt en ontwikkelt met de aangeleerde tools, frameworks en API's een volledige Hybrid Mobile App;
+    - kan de broncode van projecten via een versiebeheersysteem beheren en delen;
+    - voert bovenstaande aspecten uit, rekening houdend met de aangeleerde projectmethodologie.
+  content: |
+    - Client-side scripting met JavaScript en TypeScript
+    - Hybrid mobile framework
+    - HTML5 & Native API's
+    - Browser storage
+    - SQLite
+    - Cloud services, API's
+    - CSS Preprocessors
+    - Workflow automatisatie
+  competences:
+    start:
+      - "Webdesign I"
+      - "Webdesign II"
+      - "Web Design & Development I"
+    end:
+      - ["GDM/211", "component"]
+      - ["MMP/204", "component"]
+      - ["MMP/205", "component"]
+  objectives: |
+    De student:
+    - zet een ontwikkelomgeving op die de aangeleerde workflow ondersteunt;
+    - kan objectgeoriënteerd programmeren in ES6 en TypeScript;
+    - implementeert een backend via cloud services;
+    - integreert Open Data;
+    - ontwerpt en ontwikkelt met de aangeleerde tools, frameworks en API's een volledige Hybrid Mobile App;
+    - kan de broncode van projecten via een versiebeheersysteem beheren en delen;
+    - voert bovenstaande aspecten uit, rekening houdend met de aangeleerde projectmethodologie.
+  programme:
+    institute : AHS
+    department: PBAGDM
+    major     : MMP
+    minor     : NMD
+  resources:
+    chamilo-id: 13876
+    ects-id   : 64256
+  workload:
+    credits: 6
+    breakdown:
+      - "Hoor- en werkcolleges"  :  54
+      - "Praktijk"               :  24
+      - "Taken in zelfstudietijd": 101
+      - "Toets- en examentijd"   :   1
+    assignment-commitment: ["0 uur", "0,0 weken"]
+
+- id: 1718-MOBDEV2
+  type: OLOD
+  lang: nl
+  color: primary
+  title:
+    short: MOBDEV-II
+    long : Mobile Development II
+  academic-year: 2017-2018
+  authors: # First is owner
+    - PDP
+  evaluation-criteria: |
+  competences:
+    start:
+      - "Webdesign I"
+      - "Webdesign II"
+      - "Web Design & Development I"
+    end:
+      - ["GDM/211", "Component"]
+      - ["MMP/201", "Niveau 2"]
+      - ["MMP/204", "Component"]
+      - ["MMP/205", "Component"]
+  programme:
+    institute : AHS
+    department: PBAGDM
+    major     : MMP
+    minor     : NMD
+  resources:
+    chamilo-id: 0
+    ects-id   : 0
+  workload:
+    credits: 6
+    breakdown:
+      - "Hoor- en werkcolleges":  54
+      - "Praktijk"             :  24
+      - "Taken in zelfstudie"  : 101
+      - "Toets- en examentijd" :   1
+    assignment-commitment: ["0 uur", "0,0 weken"]
+
+- id: 1718-NMDES1
+  type: OLOD
+  lang: nl
+  color: primary
+  title:
+    short: NMDES-I
+    long : New Media Design I
+  academic-year: 2017-2018
+  authors: # First is owner
+  evaluation-criteria: |
+  programme:
+    institute : AHS
+    department: PBAGDM
+
+- id: 1718-NMDES2
+  type: OLOD
+  lang: nl
+  color: primary
+  title:
+    short: NMDES-II
+    long : New Media Design II
+  academic-year: 2017-2018
+  authors: # First is owner
+    - BM
+    - OPR
+  evaluation-criteria: |
+  programme:
+    institute : AHS
+    department: PBAGDM
+    major     : CMO
+
+- id: 1718-NMDES3
+  type: OLOD
+  lang: nl
+  color: primary
+  title:
+    short: NMDES-III
+    long : New Media Design III
+  academic-year: 2017-2018
+  authors: # First is owner
+    - BM
+    - OPR
+  programme:
+    institute : AHS
+    department: PBAGDM
+    major     : CMO
+
+- id: 1718-WEBDEV1
+  type: OLOD
+  lang: nl
+  color: primary
+  title:
+    short: WEBDEV-I
+    long : Web Development I
+  academic-year: 2017-2018
+  authors: # First is owner
+    - OPR
+    - DDW
+  evaluation-criteria: |
+  content: |
+    - Opzetten van een lokale ontwikkelomgeving (HTTP-server en databaseserver).
+    - OOP PHP
+    - SQL CRUD-operaties.
+    - PDO (MySQL)
+    - MVC
+    - PHP Micro-framework
+  competences:
+    start:
+      - ["Webdesign I", "1617_webd1"]
+      - ["Webdesign II", "1617_webd2"]
+      - ["Web Design & Development I", "1617_wdad1"]
+    end:
+      - ["MMP/203", "component"]
+      - ["MMP/205", "component"]
+  course-materials: |
+    - Cursusteksten:
+      - Cursus via Chamilo (Arteveldehogeschool)
+      - [Online Syllabus][1718-webdev1]
+      - Online Tutorials
+    - Uitrustings- en werkmateriaal:
+      - [Adobe Creative Cloud][]
+      - [JetBrains Toolbox App][]
+      - [Microsoft Visual Studio Code][]
+  objectives: |
+    De student kan:
+    - een lokale ontwikkelomgeving opzetten;
+    - objectgeoriënteerd programmeren in PHP;
+    - SQL-query's schrijven en toepassen;
+    - CRUD-manipulaties uitvoeren op gegevens in een database met behulp van PHP en SQL;
+    - de broncode van projecten via een versiebeheersysteem beheren en delen;
+    - een project van een lokale ontwikkelomgeving deployen naar een cloudoplossing.
+    De student gaat procesmatig te werk bij het realiseren van een digitaal project en produceert hierbij de nodige werkdocumenten die relevant zijn voor dat specifiek type van project.
+  programme:
+    institute : AHS
+    department: PBAGDM
+    major     : MMP
+    minor     : NMD
+  resources:
+    chamillo-id: 13875
+    ects-id    : 65971
+  workload:
+    credits: 6
+    breakdown:
+      - "Hoor- en werkcolleges":  54
+      - "Taken in zelfstudie"  : 122
+      - "Toets- en examentijd" :   4
+    weekly-study-commitment: ["13 uur"]
+
+- id: 1718-WEBDEV2
+  type: OLOD
+  lang: nl
+  color: primary
+  title:
+    short: WEBDEV-II
+    long : Web Development II
+  academic-year: 2017-2018
+  authors: # First is owner
+    - OPR
+    - PDP
+  evaluation-criteria: |
+  competences:
+    start:
+      - ["Webdesign I", "1617_webd1"]
+      - ["Webdesign II", "1617_webd2"]
+      - ["Web Design & Development I", "1617_wdad1"]
+      - ["Web Development I", "1718-webdev1"]
+    end:
+      - ["GDM/101", ""]
+      - ["MMP/201", ""]
+      - ["MMP/203", ""]
+      - ["MMP/205", ""]
+  programme:
+    institute : AHS
+    department: PBAGDM
+    major     : MMP
+    minor     : NMD
+  resources:
+    chamillo-id: 13877
+    ects-id    : 65990
+  workload:
+    credits: 10
+    hours:
+      - "Hoor- en werkcolleges":  42
+      - "Taken in zelfstudie"  : 237
+      - "Toets- en examentijd" :   1
+    assignment-commitment: ["279 uur", "7,3 weken"]
+
+- id: 1718-WEBTECH1
+  type: OLOD
+  lang: nl
+  color: primary
+  title:
+    short: WEBTECH-I
+    long : Web Technology I
+  academic-year: 2017-2018
+  authors: # First is owner
+    - DDW
+    - AAD
+    - BM
+    - EVR
+    - FR
+    - OPR
+    - PDP
+  evaluation-criteria: |
+    De student:
+    - is vertrouwd met de gangbare vakterminologie van internet en webdesign;
+    - heeft kennis van HTML, CSS en de basis van JavaScript en bouwt met deze webtechnologieën componenten van een website;
+    - zet een logische mappen- en bestandsstructuur op voor een eenvoudige website;
+    - kan werken met een versiebeheersysteem;
+    - publiceert een statische webpagina's op webhosting.
+  content: |
+    - Opzetten van een lokale ontwikkelomgeving;
+    - opzetten en toepassen van een versiebeheersysteem;
+    - webpagina's maken met HTML, CSS en de basis van JavaScript.
+  competences:
+    start:
+      - De student moet met een besturingssysteem (Windows of macOS) kunnen werken.
+      - De student moet internetdiensten vlot kunnen gebruiken.
+    end:
+      - ["GDM/210", "component"]
+      - ["MMP/205", "component"]
+  course-materials: |
+    - Boeken:
+      - "HTML & CSS: Design and Build Websites (ISBN: 978-11-188-7164-5)"
+      - "JavaScript & jQuery: Interactive Front-End Web Development (ISBN: 978-11-185-3164-8)"
+    - Cursusteksten:
+      - Cursus via Chamilo (Arteveldehogeschool)
+      - [Online Syllabus][1718-WEBTECH1]
+    - Uitrustings- en werkmateriaal:
+      - [Adobe Creative Cloud][]
+      - [Microsoft Visual Studio Code][]
+  objectives: |
+    De student:
+    - is vertrouwd met de gangbare vakterminologie van internet en webdesign;
+    - heeft kennis van HTML, CSS en de basis van JavaScript en bouwt met deze webtechnologieën componenten van een website;
+    - zet een logische mappen- en bestandsstructuur op voor een eenvoudige website;
+    - kan werken met een versiebeheersysteem;
+    - publiceert een statische webpagina's op webhosting.
+  programme:
+    institute : AHS
+    department: PBAGDM
+  resources:
+    chamilo-id: 13817
+    ects-id   : 63942
+  workload:
+    credits: 6
+    breakdown:
+      - "Hoor- en werkcolleges"  : 36
+      - "Taken in zelfstudietijd": 71
+      - "Zelfstudie"             : 70
+      - "Toets- en examentijd"   :  3
+    weekly-study-commitment: ["13 uur"]
+
+- id: 1718-WEBTECH2
+  type: OLOD
+  lang: nl
+  color: primary
+  title:
+    short: WEBTECH-II
+    long : Web Technology II
+  academic-year: 2017-2018
+  evaluation-criteria: |
+
+- id: 1718-WOT
+  type: OLOD
+  lang: nl
+  color: primary
+  title:
+    short: WOT
+    long : Web of Things
+  academic-year: 2017-2018
+  authors: # First is owner
+    - PDP
+  content: |
+    - Client-side scripting
+      - HTML5 API's;
+      - JavaScript & TypeScript;
+      - JavaScript-framework(s);
+      - Hybrid Mobile Framework;
+    - Server-side scripting:
+      - Node.js;
+      - ASP.NET Core Framework;
+    - Communication
+      - WebRTC;
+      - WebSockets;
+      - Message Queuing;
+      - Conversational interfaces;
+    - Cloud services;
+    - Hardware;
+    - Geautomatiseerde workflows opzetten en toepassen;
+    - Deployment.
+  competences:
+    start:
+      - ["New Media Design & Development I", "1617_nmdad1"]
+      - ["Web Design & Development III", "1617_wdad3"]
+    end:
+      - ["MMP/201", "component"]
+      - ["MMP/203", "component"]
+      - ["MMP/204", "component"]
+      - ["MMP/205", "component"]
+      - ["MMP/206", "component"]
+  evaluation-criteria: |
+    De student realiseert als werkstuk een volwaardige applicatie met bijhorende back-end en mobile friendly front-end; en licht zijn/haar bijdrage aan het project mondeling toe tijdens een presentatie.
+    Onderstaande aspecten zijn hierbij noodzakelijk: 
+    - De student zet een ontwikkelomgeving op die de aangeleerde workflow ondersteunt. 
+    - De student zet vooropgestelde eisen om naar een geschikt databasemodel.
+    - De student ontwerpt en ontwikkelt een Mobile Hybrid App (front-end) met behulp van de aangeleerde frameworks. 
+    - De student ontwerpt en ontwikkelt een Responsive back-end met behulp van de aangeleerde frameworks.
+    - Doorheen dit ontwikkelproces, past de student de projectmethodologie in de juiste volgorde en op een correcte manier toe.
+  objectives: |
+    De student:
+    - kan objectgeoriënteerd programmeren in ES6 en TypeScript;
+    - kan een JavaScript-framework implementeren;
+    - kan een Node.js framework, inclusief courante modules, implementeren;
+    - kan een ASP.NET Core-framework implementeren;
+    - kan cloud services toepassen;
+    - zet vooropgestelde eisen om naar een geschikt databasemodel;
+    - kan tekst en notificaties realtime versturen van en naar meerdere cliënten;
+    - kan beelden en geluid realtime streamen;
+    - kan hardware integreren;
+    - kan creative interactieve interfaces bouwen;
+    - zet een ontwikkelomgeving op die de aangeleerde workflow ondersteunt;
+    - ontwerpt en ontwikkelt met de aangeleerde tools en frameworks een volledige hybrid applicatie en een webapplicatie;
+    - kan de broncode van projecten via een versiebeheersysteem beheren en delen;
+    - voert bovenstaande aspecten uit, rekening houdend met de aangeleerde projectmethodologie;
+    - deployment uitvoeren van een lokale omgeving naar de cloudoplossing;
+    - stelt het digitale eindproduct via een mondelinge presentatie voor en toont hierbij een klantgerichte attitude.
+  programme:
+    institute : AHS
+    department: PBAGDM
+    major     : MMP
+    minor     : NMD
+  resources:
+    chamilo-id: 13912
+    ects-id   : 63014
+  workload:
+    credits: 7
+    breakdown:
+      - "Hoor- en werkcolleges"  :  54
+      - "Praktijk"               :  24
+      - "Taken in zelfstudietijd": 131
+      - "Toets- en examentijd"   :   1
+    time:
+      assignment-commitment: ["209 uur", "5,5 weken"]
+
+- id: 1819-WOT
+  type: OLOD
+  lang: nl
+  color: primary
+  title:
+    short: WOT
+    long : Web of Things
+  academic-year: 2018-2019
+  authors: # First is owner
+    - PDP
+  content: |
+    - Client-side scripting
+      - HTML5 API's;
+      - JavaScript & TypeScript;
+      - JavaScript-framework(s);
+      - Hybrid Mobile Framework;
+    - Server-side scripting:
+      - Node.js;
+      - ASP.NET Core Framework;
+    - Communication
+      - WebRTC;
+      - WebSockets;
+      - Message Queuing;
+      - Conversational interfaces;
+    - Cloud services;
+    - Hardware;
+    - Geautomatiseerde workflows opzetten en toepassen;
+    - Deployment.
+  competences:
+    start:
+      - ["New Media Design & Development I", "1617_nmdad1"]
+      - ["Web Design & Development III", "1617_wdad3"]
+    end:
+      - ["MMP/201", "component"]
+      - ["MMP/203", "component"]
+      - ["MMP/204", "component"]
+      - ["MMP/205", "component"]
+      - ["MMP/206", "component"]
+  evaluation-criteria: |
+    De student realiseert als werkstuk een volwaardige applicatie met bijhorende back-end en mobile friendly front-end; en licht zijn/haar bijdrage aan het project mondeling toe tijdens een presentatie.
+    Onderstaande aspecten zijn hierbij noodzakelijk: 
+    - De student zet een ontwikkelomgeving op die de aangeleerde workflow ondersteunt. 
+    - De student zet vooropgestelde eisen om naar een geschikt databasemodel.
+    - De student ontwerpt en ontwikkelt een Mobile Hybrid App (front-end) met behulp van de aangeleerde frameworks. 
+    - De student ontwerpt en ontwikkelt een Responsive back-end met behulp van de aangeleerde frameworks.
+    - Doorheen dit ontwikkelproces, past de student de projectmethodologie in de juiste volgorde en op een correcte manier toe.
+  objectives: |
+    De student:
+    - kan objectgeoriënteerd programmeren in ES6 en TypeScript;
+    - kan een JavaScript-framework implementeren;
+    - kan een Node.js framework, inclusief courante modules, implementeren;
+    - kan een ASP.NET Core-framework implementeren;
+    - kan cloud services toepassen;
+    - zet vooropgestelde eisen om naar een geschikt databasemodel;
+    - kan tekst en notificaties realtime versturen van en naar meerdere cliënten;
+    - kan beelden en geluid realtime streamen;
+    - kan hardware integreren;
+    - kan creative interactieve interfaces bouwen;
+    - zet een ontwikkelomgeving op die de aangeleerde workflow ondersteunt;
+    - ontwerpt en ontwikkelt met de aangeleerde tools en frameworks een volledige hybrid applicatie en een webapplicatie;
+    - kan de broncode van projecten via een versiebeheersysteem beheren en delen;
+    - voert bovenstaande aspecten uit, rekening houdend met de aangeleerde projectmethodologie;
+    - deployment uitvoeren van een lokale omgeving naar de cloudoplossing;
+    - stelt het digitale eindproduct via een mondelinge presentatie voor en toont hierbij een klantgerichte attitude.
+  programme:
+    institute : AHS
+    department: PBAGDM
+    major     : MMP
+    minor     : NMD
+  resources:
+    chamilo-id: 13912
+    ects-id   : 63014
+  workload:
+    credits: 7
+    breakdown:
+      - "Hoor- en werkcolleges"  :  54
+      - "Praktijk"               :  24
+      - "Taken in zelfstudietijd": 131
+      - "Toets- en examentijd"   :   1
+    time:
+      assignment-commitment: ["209 uur", "5,5 weken"]
