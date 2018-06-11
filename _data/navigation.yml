@@ -1,11 +1,3 @@
-- name: Algemeen
-  description: Algemene informatie
-  folder: pages/general/
-  permalink: introductie/
-  fa-icon: icon-info
-  # nr: I
-  # activate-nr: true
-
 - name: Inhoud
   description: Inhoud
   folder: pages/content/

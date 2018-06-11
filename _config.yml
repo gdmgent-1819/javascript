@@ -1,14 +1,14 @@
 # Site settings
 # -------------
-baseurl : /wot # the subpath of your site, e.g. /blog
+baseurl : /javascript # the subpath of your site, e.g. /blog
 host    : 127.0.0.1
 port    : 4109
 
 # Course
 # ------
-syllabus-id: 1819-WOT
+syllabus-id: 1819-JAVASCRIPT
 
-hero_introduction : Syllabus voor het opleidingsonderdeel Web Of Things
+hero_introduction : Syllabus voor het onderdeel JavaScript
 hero_image        : /syllabusv2-resources/assets/images/header-dev.jpg
 words_per_minute  : 60
 
@@ -16,8 +16,8 @@ words_per_minute  : 60
 # ---
 domain      : Artevelde University College Ghent
 subdomain   : Bachelor of Graphical and Digital Media
-title       : Web Of Things
-description : Syllabus voor het opleidingsonderdeel Web Of Things
+title       : JavaScript
+description : Syllabus voor het onderdeel JavaScript
 author      : Bachelor of Graphical and Digital Media | Artevelde University College Ghent
 copyright   : Copyright 2010-17 Artevelde University College Ghent. All Rights Reserved.
 
@@ -50,17 +50,3 @@ exclude:
   - Gemfile
   - LICENSE
   - README.md
-
-# Collections
-# -----------
-collections:
-  faqs:
-    output: false
-
-# Defaults
-# --------
-defaults:
-  - scope:
-      type: faqs
-    values:
-      layout: course
