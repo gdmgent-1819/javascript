@@ -16,3 +16,19 @@
     department: PBAGDM
     major     : MMP
     minor     : NMD
+
+- id: 1819-HTML-CSS
+  type: MODULE
+  lang: nl
+  color: primary
+  title:
+    short: HTML & CSS
+    long : HTML & CSS
+  academic-year: 2018-2019
+  authors: # First is owner
+    - PDP
+  programme:
+    institute : AHS
+    department: PBAGDM
+    major     : MMP
+    minor     : NMD
