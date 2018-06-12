@@ -583,3 +583,85 @@
       - "Toets- en examentijd"   :   1
     time:
       assignment-commitment: ["209 uur", "5,5 weken"]
+
+- id: 1819-JAVASCRIPT
+  type: OLOD
+  lang: nl
+  color: primary
+  title:
+    short: JS
+    long : JavaScript
+  academic-year: 2018-2019
+  authors: # First is owner
+    - PDP
+  content: |
+    - Client-side scripting
+      - HTML5 API's;
+      - JavaScript & TypeScript;
+      - JavaScript-framework(s);
+      - Hybrid Mobile Framework;
+    - Server-side scripting:
+      - Node.js;
+      - ASP.NET Core Framework;
+    - Communication
+      - WebRTC;
+      - WebSockets;
+      - Message Queuing;
+      - Conversational interfaces;
+    - Cloud services;
+    - Hardware;
+    - Geautomatiseerde workflows opzetten en toepassen;
+    - Deployment.
+  competences:
+    start:
+      - ["New Media Design & Development I", "1617_nmdad1"]
+      - ["Web Design & Development III", "1617_wdad3"]
+    end:
+      - ["MMP/201", "component"]
+      - ["MMP/203", "component"]
+      - ["MMP/204", "component"]
+      - ["MMP/205", "component"]
+      - ["MMP/206", "component"]
+  evaluation-criteria: |
+    De student realiseert als werkstuk een volwaardige applicatie met bijhorende back-end en mobile friendly front-end; en licht zijn/haar bijdrage aan het project mondeling toe tijdens een presentatie.
+    Onderstaande aspecten zijn hierbij noodzakelijk: 
+    - De student zet een ontwikkelomgeving op die de aangeleerde workflow ondersteunt. 
+    - De student zet vooropgestelde eisen om naar een geschikt databasemodel.
+    - De student ontwerpt en ontwikkelt een Mobile Hybrid App (front-end) met behulp van de aangeleerde frameworks. 
+    - De student ontwerpt en ontwikkelt een Responsive back-end met behulp van de aangeleerde frameworks.
+    - Doorheen dit ontwikkelproces, past de student de projectmethodologie in de juiste volgorde en op een correcte manier toe.
+  objectives: |
+    De student:
+    - kan objectgeoriënteerd programmeren in ES6 en TypeScript;
+    - kan een JavaScript-framework implementeren;
+    - kan een Node.js framework, inclusief courante modules, implementeren;
+    - kan een ASP.NET Core-framework implementeren;
+    - kan cloud services toepassen;
+    - zet vooropgestelde eisen om naar een geschikt databasemodel;
+    - kan tekst en notificaties realtime versturen van en naar meerdere cliënten;
+    - kan beelden en geluid realtime streamen;
+    - kan hardware integreren;
+    - kan creative interactieve interfaces bouwen;
+    - zet een ontwikkelomgeving op die de aangeleerde workflow ondersteunt;
+    - ontwerpt en ontwikkelt met de aangeleerde tools en frameworks een volledige hybrid applicatie en een webapplicatie;
+    - kan de broncode van projecten via een versiebeheersysteem beheren en delen;
+    - voert bovenstaande aspecten uit, rekening houdend met de aangeleerde projectmethodologie;
+    - deployment uitvoeren van een lokale omgeving naar de cloudoplossing;
+    - stelt het digitale eindproduct via een mondelinge presentatie voor en toont hierbij een klantgerichte attitude.
+  programme:
+    institute : AHS
+    department: PBAGDM
+    major     : MMP
+    minor     : NMD
+  resources:
+    chamilo-id: 13912
+    ects-id   : 63014
+  workload:
+    credits: 7
+    breakdown:
+      - "Hoor- en werkcolleges"  :  54
+      - "Praktijk"               :  24
+      - "Taken in zelfstudietijd": 131
+      - "Toets- en examentijd"   :   1
+    time:
+      assignment-commitment: ["209 uur", "5,5 weken"]

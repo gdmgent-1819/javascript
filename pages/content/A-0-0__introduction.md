@@ -32,7 +32,7 @@ basis;
 initializers;
 constructors;
 prototypes
-errors & error handling;
+c;
 events & event handling;
 Web API's:
 manipulatie van documenten;
