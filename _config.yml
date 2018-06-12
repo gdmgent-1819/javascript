@@ -9,7 +9,7 @@ port    : 4109
 syllabus-id: 1819-JAVASCRIPT
 
 hero_introduction : Syllabus voor het onderdeel JavaScript
-hero_image        : /syllabusv2-resources/assets/images/header-dev.jpg
+hero_image        : /syllabus-resources/assets/images/header-dev.jpg
 words_per_minute  : 60
 
 # SEO
@@ -19,7 +19,7 @@ subdomain   : Bachelor of Graphical and Digital Media
 title       : JavaScript
 description : Syllabus voor het onderdeel JavaScript
 author      : Bachelor of Graphical and Digital Media | Artevelde University College Ghent
-copyright   : Copyright 2010-17 Artevelde University College Ghent. All Rights Reserved.
+copyright   : Copyright 2010-18 Artevelde University College Ghent. All Rights Reserved.
 
 # Google Services
 # ---------------
@@ -28,9 +28,8 @@ google-analytics-tracking_id  :  "UA-18202861-3"
 # Where things are from Jekyll
 # ----------------------------
 data_dir      : /_data
-includes_dir  : /syllabusv2-resources/_includes
-layouts_dir   : /syllabusv2-resources/_layouts
-# plugins_dir   : /syllabusv2-resources/_plugins
+includes_dir  : /syllabus-resources/_includes
+layouts_dir   : /syllabus-resources/_layouts
 
 # Build settings
 # --------------
@@ -44,9 +43,18 @@ plugins:
   - jekyll-sitemap
   - jemoji
 sass:
-  sass_dir: /syllabusv2-resources/_sass
-  # style: compressed
+  sass_dir: /syllabus-resources/_sass
 exclude:
   - Gemfile
   - LICENSE
   - README.md
+
+# Configuration
+# -------------
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "course"
